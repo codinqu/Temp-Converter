@@ -1,4 +1,19 @@
 
+body{
+    background-image: url('https://th.bing.com/th/id/R.8ae680ca1aa4896e8771ba08b710ec05?rik=e649awJ6uisw3A&riu=http%3a%2f%2fmedia.giphy.com%2fmedia%2ffV5FG8TpqGcso%2fgiphy.gif&ehk=PG65Au2QR%2bpggH%2b9qCEDP7l54%2f7oybsjuEkV2dv9Rnk%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+.titleHead h1 {
+    padding-top: 278px;
+}
+
 .animate-character {
     text-transform: uppercase;
     background-image: linear-gradient(
@@ -14,4 +29,34 @@
     color: #fff;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+        font-size: 80px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+label {
+    color: rgb(251, 41, 94);
+}
+
+.tempInputBox button {
+    background-color: black;
+    color: #985d98;
+}
+
+.tempInputBox h3 {
+    color: rgb(244, 163, 234);
+    padding-left: 104px;
+}
+
+.tempInputBox p {
+    color: rgb(241, 134, 159);
+    padding-left: 165px;
 }
