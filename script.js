@@ -9,7 +9,7 @@ let tempUnit = document.getElementById("unitOfTemp");
 
 let result = document.querySelector("p");
 
-let resultCalc;
+let resultCalc = null;
 
 let buttonClicked = document.querySelector("button");
 
